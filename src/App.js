@@ -9,6 +9,7 @@ import Useref2 from './Userefhook/Useref2';
 import Memovalue from './Usememohook/Memovalue';
 import Profile from './components/Profile';
 import Footer from './components/Footer';
+import Usereducer from './UseReducer-hook/Usereducer';
 
 function App() {
   
@@ -21,8 +22,9 @@ function App() {
       {/* <UseRef/> */}
       {/* <Useref2/> */}
       {/* <Memovalue/> */}
-      <Profile/>
-      <Footer/>
+      {/* <Profile/> */}
+      {/* <Footer/> */}
+      <Usereducer/>
     </div>
   );
 }
