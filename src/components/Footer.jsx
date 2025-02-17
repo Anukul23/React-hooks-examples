@@ -3,7 +3,7 @@ import { AppContext } from '../UseContext-hook/Context/Appcontext'
 
 const Footer = () => {
 
-    const phone = useContext(AppContext)
+    const {phone} = useContext(AppContext)
   return (
     <div>
       <h1>Footer</h1>

@@ -3,7 +3,7 @@ import { AppContext } from '../UseContext-hook/Context/Appcontext';
 
 const Contact = () => {
 
-  const phone = useContext(AppContext)
+  const {phone} = useContext(AppContext)
   return (
     <div>
       <h1>Contact</h1>
