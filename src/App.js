@@ -7,6 +7,8 @@ import Datafetchingapi from './datafetching/Datafetchingapi';
 import UseRef from './Userefhook/UseRef';
 import Useref2 from './Userefhook/Useref2';
 import Memovalue from './Usememohook/Memovalue';
+import Profile from './components/Profile';
+import Footer from './components/Footer';
 
 function App() {
   
@@ -18,7 +20,9 @@ function App() {
       {/* <Datafetchingapi/> */}
       {/* <UseRef/> */}
       {/* <Useref2/> */}
-      <Memovalue/>
+      {/* <Memovalue/> */}
+      <Profile/>
+      <Footer/>
     </div>
   );
 }
