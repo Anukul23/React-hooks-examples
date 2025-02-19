@@ -26,8 +26,11 @@ const Usereducer = () => {
       <h1>{state.count}</h1>
       <button onClick={()=>dispatch({type : "increse"})} style={{marginRight :"10px", borderRadius :"10px"}}>Increment</button>
       <button onClick={()=>dispatch({type : "decrese"})}>Decrement</button>
+
+
+      <input type="number" onChange={(e)=>dispatch({type : "input" , payload : Number(e.target.value) })} />
     </div>
   )
 }
 
-export default Usereducer
+export default Usereducer;

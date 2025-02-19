@@ -10,6 +10,7 @@ import Memovalue from './Usememohook/Memovalue';
 import Profile from './components/Profile';
 import Footer from './components/Footer';
 import Usereducer from './UseReducer-hook/Usereducer';
+import Fullname from './Fullnamedisplay/Fullname';
 
 function App() {
   
@@ -24,7 +25,8 @@ function App() {
       {/* <Memovalue/> */}
       {/* <Profile/> */}
       {/* <Footer/> */}
-      <Usereducer/>
+      {/* <Usereducer/> */}
+      <Fullname/>
     </div>
   );
 }
